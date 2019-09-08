@@ -1,13 +1,14 @@
 .more .more__btn-list,
 .more .more__suggestions-list {
-  margin: 30px 0px 30px 10px;
+  margin: 30px 0px;
   display: flex;
+  justify-content: space-around;
   /* align-items: center; */
 }
 
 .more__btn-list .more__btn,
 .more .suggestion {
-  margin-right: 40px;
+  /* margin-right: 40px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,4 +45,9 @@
 .suggestion__icon i {
   font-size: 28px;
   color: white;
+}
+
+.more .not-visible {
+  color: white;
+  background-color: white;
 }
